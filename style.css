@@ -1,0 +1,55 @@
+body{
+    width: auto;
+    height: auto;
+}
+.jumbotron img{
+    width: 30%; 
+    background-color:#ffffff;
+
+}
+
+#jumbotron{
+    background-color:navajowhite;
+}
+#about p{
+    font-size: auto;
+    text-align:justify;
+}
+#input{
+    text-align: left;
+}
+#me{
+    text-align: center;
+}
+#penutup{
+    background-color:#D2691E ;
+}
+#logo{
+    width:180px ;
+    height:6vh;
+    margin: auto;
+    
+}
+.image-box{
+    width: 60px;
+    height:6vh ;
+    margin: 6px;
+}
+.image-box img{
+    width: 100%;
+}
+.image-content{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.carousel{
+    background-color:navajowhite;
+    
+}
+.carousel-inner{
+    width:auto;
+    height:auto;
+    
+    
+}
