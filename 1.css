@@ -1,0 +1,131 @@
+* {margin:0; padding:0;}
+     
+body {
+ background-color:#fff;
+ font-family:Arial, Helvetica, sans-serif;
+ color:#000;
+}
+
+nav {
+ margin:auto;
+ text-align: center;
+ width: 100%;
+} 
+
+nav ul ul {
+ display: none;
+}
+
+nav ul li:hover > ul{
+display: block;
+width: 150px;
+}
+
+nav ul {
+ background: white;
+ padding: 0 20px;
+ list-style: none;
+ position: relative;
+ display: inline-table;
+ width: 100%;
+}
+
+nav ul:after {
+ content: ""; 
+ clear:both; 
+ display: block;
+}
+
+nav ul li{
+ float:left;
+}
+
+nav ul li img{
+    margin-right: 300px;
+}
+
+nav ul li:hover{
+ background: rgb(181, 216, 119);
+}
+
+
+
+nav ul li a{
+ display: block;
+ padding: 25px;
+ color: black;
+ text-decoration: none;
+}
+
+nav ul ul{
+ background: orange;
+ border-radius: 0px;
+ padding: 0;
+ position: absolute;
+ top:100%;
+}
+
+nav ul ul li{
+ float:none;
+ border-top: 1px soild orange;
+ border-bottom: 1px solid orange;
+ position: relative;
+}
+
+nav ul ul li a{
+ padding: 15px 40px;
+ color: black;
+}
+
+nav ul ul li a:hover{
+ background-color: red;
+}
+
+nav ul ul ul{
+ position: absolute;
+ left: 100%;
+ top: 0;
+}
+
+
+
+
+.card-main{
+    width: 1270px;
+    margin: auto;
+}
+
+.card-item{
+    float:left;
+    width: 300px;
+    margin: 0 30px;
+    border: 0.5px solid rgba(0,0,0,.1);
+    padding: 30px;
+    border-radius:10px;
+}
+.card-judul{
+    text-align: left;
+}
+.card-deskripsi{
+    text-align: left;
+    
+}
+#button{
+  background-color:rgb(136, 235, 127);
+  border:solid;
+  color:white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px ;
+  cursor: pointer;
+}
+#button:hover{
+  background-color:rgb(224, 88, 88);
+}
+#foto{
+  width: 300px;
+  height: 200px;
+}
